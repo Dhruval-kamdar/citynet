@@ -23,7 +23,11 @@
                 <div class="navbar-top bg-grey fix">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-2">
+                                <div class="navbar-callus text-left sm-text-center">
+                                    <img alt="img" style="height: 50px;" src="{{ url('uploads/city-net-logo.jpg') }}">
+                                </div>
+                            </div> <div class="col-md-6">
                                 <div class="navbar-callus text-left sm-text-center">
                                     <ul class="list-inline">
                                         <li><a href=""><i class="fa fa-phone"></i> Call us: 8460526226</a></li>
@@ -31,7 +35,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="navbar-socail text-right sm-text-center">
                                     <ul class="list-inline">
                                         <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>

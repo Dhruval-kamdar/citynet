@@ -12,11 +12,11 @@
 */
 
 Route::get('/', function () {
-    return Redirect::to('front');
+    return Redirect::to('home');
     // return Redirect::to('login');
 });
 
-Route::match(['get', 'post'], 'front', ['as' => 'login', 'uses' => 'FrontController@index']);
+Route::match(['get', 'post'], 'home', ['as' => 'home', 'uses' => 'FrontController@index']);
 Route::match(['get', 'post'], 'login', ['as' => 'login', 'uses' => 'LoginController@auth']);
 Route::match(['get', 'post'], 'logout', ['as' => 'logout', 'uses' => 'LoginController@getLogout']);
 Route::match(['get', 'post'], 'blog', ['as' => 'blog', 'uses' => 'BlogController@blog']);

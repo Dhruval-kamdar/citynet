@@ -68,27 +68,19 @@
                     <!-- navbar menu -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#home">Home</a></li>                    
-                            <li><a href="#business">About</a></li> 
-                            <li><a href="#service">Service</a></li>
-                            <li><a href="#staff">Staff </a></li>
+                            <li><a href="{{ route('home') }}#home">Home</a></li>                    
+                            <li><a href="{{ route('home') }}#business">About</a></li> 
+                            <li><a href="{{ route('home') }}#service">Service</a></li>
+                            <li><a href="{{ route('home') }}#staff">Staff </a></li>
                             <!--<li><a href="#partner">Partner</a></li>-->
-                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="{{ route('home') }}#contact">Contact Us</a></li>
                             <li><a href="{{ route('blog') }}">Blog</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div> 
 
             </nav>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
          
       <!-- Start Blog  -->
   <section id="aa-blog">
