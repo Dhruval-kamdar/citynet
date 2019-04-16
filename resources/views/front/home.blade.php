@@ -23,30 +23,22 @@
                 <div class="navbar-top bg-grey fix">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-2">
+<!--                            <div class="col-md-2">
                                 <div class="navbar-callus text-left sm-text-center">
                                     <img alt="img" style="height: 50px;" src="{{ url('uploads/city-net-logo.jpg') }}">
                                 </div>
-                            </div> <div class="col-md-6">
-                                <div class="navbar-callus text-left sm-text-center">
+                                
+                            </div> -->
+                            <!--<div class="col-md-"></div>-->
+                            <div class="col-md-12 ">
+                                <div class="navbar-callus pull-right sm-text-center">
                                     <ul class="list-inline">
-                                        <li><a href=""><i class="fa fa-phone"></i> Call us: 8460526226</a></li>
-                                        <li><a href=""><i class="fa fa-envelope-o"></i> Contact us: citynetemployment@gmail.com</a></li>
+                                        <li><a href=""><i class="fa fa-phone"></i> Call us: : 65360790 / 65360239 / 64388704 </a></li>
+                                        <li><a href=""><i class="fa fa-envelope-o"></i> Contact us: citynet0203@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="navbar-socail text-right sm-text-center">
-                                    <ul class="list-inline">
-                                        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="https://www.behance.net/"><i class="fa fa-behance"></i></a></li>
-                                        <li><a href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -57,12 +49,12 @@
                     
 
                     <!-- Start Header Navigation -->
-                    <div class="navbar-header">
+                    <div class="navbar-header" style="height: 80px;">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="#brand">
-                            <img src="{{ asset('assets/images/rsz_untitled-2.png') }}" class="logo"  alt="">
+                           <img alt="img" style="margin-top:5px;height: 70px; width: 70px;" src="{{ url('uploads/city-net-logo.png') }}">
                            
                         </a>
 
@@ -131,30 +123,6 @@
                 <div class="container">
                     <div class="row">
                         <div class="main_business">
-<!--                            <div class="col-md-6">
-                                <div class="business_slid">
-                                    <div class="slid_shap bg-grey"></div>
-                                    <div class="business_items text-center">
-                                        <div class="business_item">
-                                            <div class="business_img">
-                                                <img src="assets/images/Engineer.png" style="width:600px;height:368px;" alt="" />
-                                            </div>
-                                        </div>
-
-                                        <div class="business_item">
-                                            <div class="business_img">
-                                                <img src="assets/images/lowyer.jpg" style="width:600px;height:368px;" alt="" />
-                                            </div>
-                                        </div>
-
-                                        <div class="business_item">
-                                            <div class="business_img">
-                                                <img src="assets/images/web-designing.jpg" style="width:600px;height:368px;" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>-->
                             
                             <div class="col-md-12">
                                 <div class="business_item sm-m-top-50">
@@ -183,63 +151,7 @@
                 </div>
             </section><!-- End off Business section -->
 
-            <!--Service section-->
-            <!-- <section id="service" class="test bg-grey roomy-60 fix">
-                <div class="container">
-                    <div class="row">                        
-                        <div class="main_test fix">
-
-                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                <div class="head_title text-center fix">
-                                    <h2 class="text-uppercase">Our Services</h2>
-                                     <h5>We provide a wide range of services.</h5>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="test_item fix">
-                                    <div class="item_img">
-                                        <img class="img-circle" src="assets/images/services.png" alt="" />
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-
-                                    <div class="item_text">
-                                        <h5>Main Services</h5>
-                                       <ul>
-                                            <li><i class="fa fa-arrow-circle-right"></i> Engineers.</li>
-                                            <li><i class="fa  fa-arrow-circle-right"></i> Workres.</li>
-                                            <li><i class="fa  fa-arrow-circle-right"></i> Management Person.</li>
-                                            <li><i class="fa  fa-arrow-circle-right"></i> Advisor.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="test_item fix sm-m-top-30">
-                                    <div class="item_img">
-                                        <img class="img-circle" src="assets/images/services1.png" alt="" />
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-
-                                    <div class="item_text">
-                                        <h5>Our Consultancy Sevices</h5>
-                                        <ul>
-                                        <li><i class="fa fa-arrow-circle-right"></i> BCA/SLOTS application and related services.</li>
-                                        <li><i class="fa  fa-arrow-circle-right"></i> CPF  services.</li>
-                                        <li><i class="fa  fa-arrow-circle-right"></i> WDA services.</li>
-                                        <li><i class="fa  fa-arrow-circle-right"></i> ICA services.</li>
-                                        <li><i class="fa  fa-arrow-circle-right"></i> Setting up of Company – ACRA related services.</li>
-                                    </ul>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> --><!-- End off test section -->
+  
 
         <section id="service" class="features bg-grey">
             <div class="container">
@@ -251,117 +163,130 @@
                             <h5>We provide a wide range of services.</h5>
                         </div>
                     </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon"><i class="fa fa-users"></i></div>
-                      <div class="f_item_text">
-                        <h3>Work Permit Applications</h3>
-                        <p>SERVICES INCLUDE : ONLINE APPLICATION AND ISSUANCE, APPEAL FOR REJECTED APPLICATIONS, WP QUOTA CHECKING, NEW ACCOUNT OPENING AND CONSULTANCY SERVICES, THUMB PRINTING SERVICES, OTHER RELATED SERVICES  VIZ., MEDICAL NSURANCE AND WORKMEN INJURY COMPENSATION INSURANCE FOR WORKERS, MEDICAL CHECK UP FOR WORKES (ONE STOP EXPRESSED REPORT ON NEXT WORKING DAY)</p>
+                    
+                    <div class="col-md-4">
+                      <div class="features_item sm-m-top-30">
+                          <div class="f_item_icon"><img src="{{ url('uploads/logo/wp.png') }}"></div>
+                        <div class="business_item f_item_text">
+                          <h3 >Work Permit Applications</h3>
+                          <p align="justify">Online application and issuance, appeal for rejected applications, wp quota checking, new account opening and consultancy services, thumb printing services, other related services  viz., medical nsurance and workmen injury compensation insurance for workers, medical check up for workes (one stop expressed report on next working day)</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon" ><i class="fa fa-universal-access" ></i></div>
-                      <div class="f_item_text">
-                        <h3>S Pass Applications</h3>
-                        <p>SERVICES INCLUDE : ONLINE APPLICATION AND ISSUANCE, APPEAL FOR REJECTED APPLICATIONS, S PASS QUOTA CHECKING AND CONSULTANCY SERVICES, THUMB PRINTING SERVICES, OTHER RELATED SERVICES VIZ., MEDICAL NSURANCE AND WORKMEN INJURY COMPENSATION INSURANCE FOR WORKERS, MEDICAL CHECK UP FOR WORKES (ONE STOP EXPRESSED REPORT ON NEXT WORKING DAY)</p>
+                    
+                    <div class="col-md-4">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon" ><img src="{{ url('uploads/logo/SP.png') }}"></div>
+                        <div class=" business_item f_item_text">
+                          <h3>S Pass Applications</h3>
+                          <p align="justify">Online application and issuance, appeal for rejected applications, s pass quota checking and consultancy services, thumb printing services, other related services viz., medical nsurance and workmen injury compensation insurance for workers, medical check up for workes (one stop expressed report on next working day)</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon"><i class="fa fa-sliders"></i></div>
-                      <div class="f_item_text">
-                        <h3>Employment Pass Applications</h3>
-                        <p>SERVICES INCLUDE: ONLINE APPLICATION AND ISSUANCE, JOB BANK CONSULTANCY SERVICS, JOB BANK POSTING AND MONITORING SERVICES, APPEAL FOR REJECTED APPLICATIONS, THUMB PRINTING SERVICES. HIGH SUCCESS RATE FOR APPLICATIONS.  TRUSTED AGENCY FOR CONSULTANCY SERVICES ON EP MATTERS.  CONSULTANCY FOR ALTERNATIVE SOLUTIONS.</p>
+                    
+                    <div class="col-md-4">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon"><img src="{{ url('uploads/logo/EP.png') }}"></div>
+                        <div class="business_item f_item_text">
+                          <h3>Employment Pass Applications</h3>
+                          <p align="justify">Online application and issuance, job bank consultancy servics, job bank posting and monitoring services, appeal for rejected applications, thumb printing services. High success rate for applications.  Trusted agency for consultancy services on ep matters.  Consultancy for alternative solutions.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon"><i class="fa fa-ambulance"></i></div>
-                      <div class="f_item_text">
-                        <h3>LOC (Letter of Consent)</h3>
-                        <p>SERVICES INCLUDE : ONLINE APPLICATIONS AND CONSULTANCY SERVICES.</p>
+                    
+                    <div class="col-md-4" style="margin-top:40px">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon"><img src="{{ url('uploads/logo/LOC.png') }}"></div>
+                        <div class="business_item f_item_text">
+                          <h3>LOC (Letter of Consent)</h3>
+                          <p align="justify">Online applications and consultancy services.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon"><i class="fa fa-book"></i></div>
-                      <div class="f_item_text">
-                        <h3>Dependent Pass Applications</h3>
-                        <p>SERVICES INCLUDE : ONLINE APPLICATIONS AND ISSUANCE, THUMB PRINTING SERVICES  AND  CONSULTANCY SERVICES.</p>
+                    
+                    <div class="col-md-4" style="margin-top:40px">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon"><img src="{{ url('uploads/logo/DP.png') }}"></div>
+                        <div class="business_item f_item_text">
+                          <h3>Dependent Pass Applications</h3>
+                          <p align="justify">Online applications and issuance, thumb printing services  and  consultancy services.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon"><i class="fa fa-diamond"></i></div>
-                      <div class="f_item_text">
-                        <h3>Permanent Residence Applications</h3>
-                        <p>SERVICES INCLUDE : ONLINE APPLICATIONS AND CONSULTANCY SERVICES. HIGH SUCCESS RATE ASSURED.</p>
+                    
+                    <div class="col-md-4" style="margin-top:40px">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon"><img src="{{ url('uploads/logo/PR.png') }}"></div>
+                        <div class="business_item f_item_text">
+                          <h3>Permanent Residence Applications</h3>
+                          <p align="justify">Online applications and consultancy services. High success rate assured.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                    
                 </div>
                 <div class="main_features fix">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="head_title text-center fix">
-                            <h2 class="text-uppercase">CITIZENSHIPS APPLICATIONS :</h2>
-                            <h5>SERVICES INCLUDE : ONLINE APPLICATIONS AND CONSULTANCY SERVICES. HIGH SUCCCESS RATE ASSURED.</h5>
+                            <h2 class="text-uppercase">CITIZENSHIPS APPLICATIONS </h2>
+                            <h5 >Online applications and consultancy services. High succcess rate assured.</h5>
                         </div>
                     </div>  
-                   <!--  <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="head_title text-center fix">
-                            <h2 class="text-uppercase">Our Consultancy Services</h2>
-                            <h5>We provide a wide range of services.</h5>
+                    <div class="col-md-12">
+                    <div class="col-md-4">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon"><img src="{{ url('uploads/logo/CR.png') }}"></div>
+                        <div class="business_item f_item_text">
+                          <h3>Contractors Registration System (Crs) – BCA</h3>
+                          <p align="justify">Online applicatoins for new application, renewal application and consultancy services.</p>
                         </div>
-                    </div> -->
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon"><i class="fa fa-users"></i></div>
-                      <div class="f_item_text">
-                        <h3>BCA/SLOTS application and related services</h3>
-                        <p>ONLINE APPLICATOINS FOR NEW APPLICATION, RENEWAL APPLICATION AND CONSULTANCY SERVICES.</p>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon" ><i class="fa fa-universal-access" ></i></div>
-                      <div class="f_item_text">
-                        <h3>WDA services</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    
+                    <div class="col-md-4">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon" ><img src="{{ url('uploads/logo/PR.png') }}"></div>
+                        <div class=" business_item f_item_text">
+                          <h3>Permanent residence applications</h3>
+                          <p align="justify">Online applications and consultancy services. High success rate assured.</p>
+                          
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon"><i class="fa fa-sliders"></i></div>
-                      <div class="f_item_text">
-                        <h3>ICA services</h3>
-                        <p>PERMANENT RESIDENCE APPLICATIONS :
-<b>SERVICES INCLUDE</b> : ONLINE APPLICATIONS AND CONSULTANCY SERVICES. HIGH SUCCESS RATE ASSURED.
-<b>CITIZENSHIPS APPLICATIONS</b> :
-<strong>SERVICES INCLUDE</strong> : ONLINE APPLICATIONS AND CONSULTANCY SERVICES. HIGH SUCCCESS RATE ASSURED.
-<strong>LONG TERM VISIT PASS APPLICATIONS</strong>: 
-SERVICES INCLUDE : ONLINE APPLICATIONS AND CONSULTANCY SERVICES. HIGH SUCCCESS RATE ASSURED.</p>
+                    
+                    <div class="col-md-4">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon"><img src="{{ url('uploads/logo/CA.png') }}"></div>
+                        <div class="business_item f_item_text">
+                          <h3>Citizenships Applications </h3>
+                          <p align="justify">Online applications and consultancy services. High succcess rate assured.</p>
+                          
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="features_item sm-m-top-30">
-                      <div class="f_item_icon"><i class="fa fa-ambulance"></i></div>
-                      <div class="f_item_text">
-                        <h3>Setting up of Company – ACRA related services</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    
+                    </div>
+                    <div class="col-md-12" style="margin-bottom: 50px">
+                        <div class="col-md-4" style="margin-top:40px">
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon"><img src="{{ url('uploads/logo/LT.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3>Long Term Visit Pass Applications</h3>
+                              <p align="justify">Online applications and consultancy services. High succcess rate assured.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4" style="margin-top:40px">
+                      <div class="features_item sm-m-top-30">
+                        <div class="f_item_icon"><img src="{{ url('uploads/logo/TS.png') }}"></div>
+                        <div class="business_item f_item_text">
+                          <h3>Tax Services</h3>
+                          <p align="justify">Online applications and consultancy services for individual and corporate entities.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  
-                  
+                    </div>
                 </div>
               </div>
             </div>
@@ -370,297 +295,100 @@ SERVICES INCLUDE : ONLINE APPLICATIONS AND CONSULTANCY SERVICES. HIGH SUCCCESS R
             <!--product section-->
             <section id="staff" class="product">
                 <div class="container">
-                    <div class="main_product roomy-80">
+                    <div class="main_product roomy-50">
                         <div class="head_title text-center fix">
                             <h2 class="text-uppercase">Staff </h2>
                             <h5>Founding Members of City Net Employment Agency Pte Ltd</h5>
                         </div>
 
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
-
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/Lai tau.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/Lai tau.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Lai Tau Lim</h5>
-                                                        <h6>Lic No. C666201J </h6>
-                                                    </div>
+                        <div class="container">
+                            
+                            <div class='row'>
+                              <div class='col-md-12'>
+                                <div class="carousel slide media-carousel" id="media">
+                                  <div class="carousel-inner">
+                                    <div class="item  active">
+                                      <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="port_img">
+                                                <img src="assets/images/team/Lai tau.jpg" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/Lai tau.jpg" class="popup-img">+</a>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/lavpuav.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/lavpuav.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Lai Puay Fang </h5>
-                                                        <h6>Lic No. C666201J</h6>
-                                                    </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>JOHN LAI</h5>
+                                                
+                                            </div>
+                                        </div>    
+                                          
+                                        <div class="col-md-4">
+                                            <div class="port_img">
+                                                <img src="assets/images/team/lavpuav.jpg" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/lavpuav.jpg" class="popup-img">+</a>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/Lee Ai.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/Lee Ai.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Lai Al Hiang</h5>
-                                                        <h6>Lic No. C666201J </h6>
-                                                    </div>
-                                                </div>
-                                            </div>  
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/Lim hvee kia.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/Lim hvee kia.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Lim Hwee Kia Esme (Lin Huojia Esme)</h5>
-                                                        <h6>Lic No. C666201J     </h6>
-                                                    </div>
-                                                </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>LIM PENG SIANG</h5>
+                                                
                                             </div>
-                                            
                                         </div>
+                                        <div class="col-md-4">
+                                            <div class="port_img">
+                                                <img src="assets/images/team/Lee Ai.jpg" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/Lee Ai.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>VIRGINIA LEE</h5>
+                                                
+                                            </div>
+                                        </div>        
+                                      </div>
                                     </div>
-                                </div>
+                                    <div class="item">
+                                      <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="port_img">
+                                                <img src="assets/images/team/Lim hvee kia.jpg" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/Lim hvee kia.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>JENNY LAI</h5>
+                                                
+                                            </div>
+                                        </div>          
+                                        <div class="col-md-4">
+                                          <div class="port_img">
+                                                <img src="assets/images/team/Lim hvee kia.jpg" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/Lim hvee kia.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>ESME LIM</h5>
+                                                
+                                            </div>
+                                        </div>
+                                               
+                                      </div>
+                                    </div>
+                                   
+                                  </div>
+                                  <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+                                  <a data-slide="next" href="#media" class="right carousel-control">›</a>
+                                </div>                          
+                              </div>
                             </div>
-
-                            <!-- Controls -->
-                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                <i class="fa fa-angle-left" aria-hidden="true"></i>
-                                <span class="sr-only">Previous</span>
-                            </a>
-
-                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
+                          </div>
                     </div><!-- End off row -->
-                    <div class="main_product">
-                        <div class="head_title text-center fix">
-                            <!--<h2 class="text-uppercase">Staff </h2>-->
-                            <h5>Our Staff, Working Partners & People who have contributed</h5>
-                        </div>
-
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
-
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/team10.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/team10.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Jenny Lai</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/team12.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/team12.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Esme Lim </h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/team11.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/team11.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Susan Lau</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/team9.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/team9.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Loo Hooi Suang</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/team5.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/team5.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Janice Lai</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/team6.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/team6.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Henry Lim </h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/team7.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/team7.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Chong Soo Ching</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/team/team8.jpg" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/team/team8.jpg" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>Christina Khoo/ Victor Kam</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                             
-
-                            </div>
-
-                            <!-- Controls -->
-                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                <i class="fa fa-angle-left" aria-hidden="true"></i>
-                                <span class="sr-only">Previous</span>
-                            </a>
-
-                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div><!-- End off row -->
+                    
                 </div><!-- End off container -->
             </section><!-- End off Product section -->
-
-
-
-            <!--Brand Section-->
-<!--            <section id="partner" class="brand fix roomy-80 bg-grey">
-                <div class="container">
-                    <div class="head_title text-center fix">
-                            <h2 class="text-uppercase">Partner List</h2>
-                           
-                        </div>
-                    <div class="row">
-                        <div class="main_brand text-center">
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="brand_item sm-m-top-20">
-                                    <img src="assets/images/brand/cbrand-img1.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="brand_item sm-m-top-20">
-                                    <img src="assets/images/brand/cbrand-img2.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="brand_item sm-m-top-20">
-                                    <img src="assets/images/brand/cbrand-img3.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="brand_item sm-m-top-20">
-                                    <img src="assets/images/brand/cbrand-img4.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="brand_item sm-m-top-20">
-                                    <img src="assets/images/brand/cbrand-img5.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="brand_item sm-m-top-20">
-                                    <img src="assets/images/brand/cbrand-img6.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> End off Brand section -->
 
 
 @endsection
