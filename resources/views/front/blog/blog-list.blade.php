@@ -53,7 +53,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="#brand">
+                        <a class="navbar-brand" href="{{ route('home')}}">
                            <img alt="img" style="margin-top:5px;height: 70px; width: 70px;" src="{{ url('uploads/city-net-logo.png') }}">
                            
                         </a>
@@ -114,17 +114,17 @@
                                   $filename= url('uploads/blog/'.$val['image']);
                                   $file_headers = @get_headers($filename);
                                 @endphp
+                                <a href="{{ route('blog-detail',array('id' => $val['id'])) }}">
                                 <div class="col-md-4 col-sm-4" style="margin-top:20px;margin-bottom:25px">
+                                  
                                   <article class="aa-blog-single">
                                     <figure class="aa-blog-img">
-                                      <a href="{{ route('blog-detail',array('id' => $val['id'])) }}">
-                                      
                                       @if($file_headers[0] == 'HTTP/1.1 200 OK')
                                         <img alt="img" style="width:360px;height: 240px;" src="{{ url('uploads/blog/'. $val['image']) }}">
                                         @else
                                         <img alt="img" style="width:360px;height: 240px;" src="{{ url('uploads/blog/No-image.jpg') }}">
                                       @endif
-                                      </a>
+                                      
                                       <br/>
                                       <span class="aa-date-tag">
                                         {{ date('d F, y',strtotime($val['created_at'])) }}
@@ -132,7 +132,7 @@
                                     </figure>
                                       <br>
                                     <div class="aa-blog-single-content">
-                                      <h3><a href="#">{{ $val['title'] }}</a></h3>
+                                      <h3>{{ $val['title'] }}</h3>
                                       <p align="justify">
                                           @if(strlen($val['description']) > 250)
                                             {{ substr($val['description'], 0, 250)."....."}}
@@ -141,12 +141,14 @@
                                           @endif
                                       </p>
                                       <div class="aa-blog-single-bottom">
-                                        <a class="aa-blog-author" href="#"><i class="fa fa-user"></i> Admin</a>
+                                        <p class="aa-blog-author" ><i class="fa fa-user"></i> Admin</p>
                                       </div>
                                       
                                     </div>                   
                                   </article>
+                                  
                                 </div>
+                                </a>
                                 @endforeach
                               </div>
 
@@ -161,6 +163,81 @@
                 </div>
               </section>
 
-          
+     <style type="text/css">
+        .home {
+              background: url({{ url('assets/images/blog.jpg') }}) no-repeat scroll center center;
+        }
+       .aa-blog-single .aa-blog-img .aa-date-tag {
+            color: #fff;
+            padding: 5px 8px;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 15px;
+        }
+        .aa-blog-single .aa-date-tag {
+            background-color: #59abe3;
+        }
+
+        .aa-blog-single {
+              background-color: #f8f8f8;
+              display: inline;
+              float: left;
+              width: 100%;
+          }
+
+        .aa-blog-single .aa-blog-img {
+            display: inline;
+            float: left;
+            position: relative;
+            width: 100%;
+        }
+
+        .aa-blog-single .aa-blog-single-content {
+            display: inline;
+            float: left;
+            padding: 10px;
+            width: 100%;
+            padding-bottom: 20px;
+        }
+
+        .aa-blog-single .aa-blog-single-bottom {
+            border-top: 1px solid #ccc;
+            padding: 10px;
+            display: inline;
+            margin-top: 10px;
+            float: left;
+            width: 100%;
+        }
+
+        .aa-blog-single .aa-blog-single-bottom .aa-blog-author {
+            float: left;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333333;
+        }
+
+        #aa-blog .aa-blog-area .aa-blog-content .aa-blog-single {
+            margin-bottom: 30px;
+        }
+
+        .aa-blog-details {
+            padding: 20px;
+        }
+        .aa-blog-single {
+            background-color: #f8f8f8;
+            display: inline;
+            float: left;
+            width: 100%;
+        }
+
+        .aa-blog-single .aa-blog-single-content {
+          height: 240px;}
+     </style>     
 
 @endsection

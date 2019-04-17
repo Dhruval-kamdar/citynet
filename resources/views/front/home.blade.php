@@ -53,7 +53,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="#brand">
+                        <a class="navbar-brand" href="{{ route('home')}}">
                            <img alt="img" style="margin-top:5px;height: 70px; width: 70px;" src="{{ url('uploads/city-net-logo.png') }}">
                            
                         </a>
@@ -153,7 +153,7 @@
 
   
 
-        <section id="service" class="features bg-grey">
+        <section id="service" class="features bg-grey" style="padding-bottom: 35px">
             <div class="container">
               <div class="row">
                 <div class="main_features fix roomy-70">
@@ -163,111 +163,124 @@
                             <h5>We provide a wide range of services.</h5>
                         </div>
                     </div>
-                    
-                    <div class="col-md-4">
-                      <div class="features_item sm-m-top-30">
-                          <div class="f_item_icon"><img src="{{ url('uploads/logo/wp.png') }}"></div>
-                        <div class="business_item f_item_text">
-                          <h3 >Work Permit Applications</h3>
-                          <p align="justify">Online application and issuance, appeal for rejected applications, wp quota checking, new account opening and consultancy services, thumb printing services, other related services  viz., medical nsurance and workmen injury compensation insurance for workers, medical check up for workes (one stop expressed report on next working day)</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                          <div class="features_item sm-m-top-30">
+                              <div class="f_item_icon"><img src="{{ url('uploads/logo/wp.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3 >Work Permit Applications</h3>
+                              <p align="justify">Online application and issuance, appeal for rejected applications, wp quota checking, new account opening and consultancy services, thumb printing services, other related services  viz., medical nsurance and workmen injury compensation insurance for workers, medical check up for workes (one stop expressed report on next working day)</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon" ><img src="{{ url('uploads/logo/SP.png') }}"></div>
-                        <div class=" business_item f_item_text">
-                          <h3>S Pass Applications</h3>
-                          <p align="justify">Online application and issuance, appeal for rejected applications, s pass quota checking and consultancy services, thumb printing services, other related services viz., medical nsurance and workmen injury compensation insurance for workers, medical check up for workes (one stop expressed report on next working day)</p>
+                        
+                        <div class="col-md-4">
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon" ><img src="{{ url('uploads/logo/SP.png') }}"></div>
+                            <div class=" business_item f_item_text">
+                              <h3>S Pass Applications</h3>
+                              <p align="justify">Online application and issuance, appeal for rejected applications, s pass quota checking and consultancy services, thumb printing services, other related services viz., medical nsurance and workmen injury compensation insurance for workers, medical check up for workes (one stop expressed report on next working day)</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon"><img src="{{ url('uploads/logo/EP.png') }}"></div>
-                        <div class="business_item f_item_text">
-                          <h3>Employment Pass Applications</h3>
-                          <p align="justify">Online application and issuance, job bank consultancy servics, job bank posting and monitoring services, appeal for rejected applications, thumb printing services. High success rate for applications.  Trusted agency for consultancy services on ep matters.  Consultancy for alternative solutions.</p>
+                        
+                        <div class="col-md-4">
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon"><img src="{{ url('uploads/logo/EP.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3>Employment Pass Applications</h3>
+                              <p align="justify">Online application and issuance, job bank consultancy servics, job bank posting and monitoring services, appeal for rejected applications, thumb printing services. High success rate for applications.  Trusted agency for consultancy services on ep matters.  Consultancy for alternative solutions.</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
                     </div>
-                    
-                    <div class="col-md-4" style="margin-top:40px">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon"><img src="{{ url('uploads/logo/LOC.png') }}"></div>
-                        <div class="business_item f_item_text">
-                          <h3>LOC (Letter of Consent)</h3>
-                          <p align="justify">Online applications and consultancy services.</p>
+                    <div class="row">
+                        <div class="col-md-4" style="margin-top:40px">
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon"><img src="{{ url('uploads/logo/LOC.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3>LOC (Letter of Consent)</h3>
+                              <p align="justify">Online applications and consultancy services.</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    
-                    <div class="col-md-4" style="margin-top:40px">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon"><img src="{{ url('uploads/logo/DP.png') }}"></div>
-                        <div class="business_item f_item_text">
-                          <h3>Dependent Pass Applications</h3>
-                          <p align="justify">Online applications and issuance, thumb printing services  and  consultancy services.</p>
+                        
+                        <div class="col-md-4" style="margin-top:40px">
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon"><img src="{{ url('uploads/logo/DP.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3>Dependent Pass Applications</h3>
+                              <p align="justify">Online applications and issuance, thumb printing services  and  consultancy services.</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    
-                    <div class="col-md-4" style="margin-top:40px">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon"><img src="{{ url('uploads/logo/PR.png') }}"></div>
-                        <div class="business_item f_item_text">
-                          <h3>Permanent Residence Applications</h3>
-                          <p align="justify">Online applications and consultancy services. High success rate assured.</p>
+                        
+                        <div class="col-md-4" style="margin-top:40px">
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon"><img src="{{ url('uploads/logo/PR.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3>Permanent Residence Applications</h3>
+                              <p align="justify">Online applications and consultancy services. High success rate assured.</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
+
                     </div>
-                    
+                    <div class="row">
+                        <div class="col-md-2" style="margin-top:40px">
+                          <div class="features_item sm-m-top-30">
+                            
+                          </div>
+                        </div>
+                   
+
+                        <div class="col-md-4" style="margin-top:40px">
+                              <div class="features_item sm-m-top-30">
+                                <div class="f_item_icon"><img src="{{ url('uploads/logo/CA.png') }}"></div>
+                                <div class="business_item f_item_text">
+                                  <h3>Citizenships Applications</h3>
+                                  <p align="justify">Online applications and consultancy services. High succcess rate assured.</p>
+                                </div>
+                              </div>
+                        </div>
+                        
+                        <div class="col-md-4" style="margin-top:40px">
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon"><img src="{{ url('uploads/logo/CR.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3>Contractors Registration System (Crs) – BCA</h3>
+                              <p align="justify">Online applicatoins for new application, renewal application and consultancy services.</p>
+                            </div>
+                          </div>
+                        </div>    
+
+                        <div class="col-md-2" style="margin-top:40px">
+                          <div class="features_item sm-m-top-30">
+                            
+                          </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="main_features fix">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="head_title text-center fix">
-                            <h2 class="text-uppercase">CITIZENSHIPS APPLICATIONS </h2>
-                            <h5 >Online applications and consultancy services. High succcess rate assured.</h5>
+                            <h2 class="text-uppercase">ICA SERVICES</h2>
+                            
                         </div>
                     </div>  
-                    <div class="col-md-12">
-                    <div class="col-md-4">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon"><img src="{{ url('uploads/logo/CR.png') }}"></div>
-                        <div class="business_item f_item_text">
-                          <h3>Contractors Registration System (Crs) – BCA</h3>
-                          <p align="justify">Online applicatoins for new application, renewal application and consultancy services.</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon"><img src="{{ url('uploads/logo/CA.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3>Citizenships Applications </h3>
+                              <p align="justify">Online applications and consultancy services. High succcess rate assured.</p>
+                              
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon" ><img src="{{ url('uploads/logo/PR.png') }}"></div>
-                        <div class=" business_item f_item_text">
-                          <h3>Permanent residence applications</h3>
-                          <p align="justify">Online applications and consultancy services. High success rate assured.</p>
-                          
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon"><img src="{{ url('uploads/logo/CA.png') }}"></div>
-                        <div class="business_item f_item_text">
-                          <h3>Citizenships Applications </h3>
-                          <p align="justify">Online applications and consultancy services. High succcess rate assured.</p>
-                          
-                        </div>
-                      </div>
-                    </div>
-                    
-                    </div>
-                    <div class="col-md-12" style="margin-bottom: 50px">
-                        <div class="col-md-4" style="margin-top:40px">
+
+                        <div class="col-md-4" >
                           <div class="features_item sm-m-top-30">
                             <div class="f_item_icon"><img src="{{ url('uploads/logo/LT.png') }}"></div>
                             <div class="business_item f_item_text">
@@ -277,16 +290,18 @@
                           </div>
                         </div>
 
-                        <div class="col-md-4" style="margin-top:40px">
-                      <div class="features_item sm-m-top-30">
-                        <div class="f_item_icon"><img src="{{ url('uploads/logo/TS.png') }}"></div>
-                        <div class="business_item f_item_text">
-                          <h3>Tax Services</h3>
-                          <p align="justify">Online applications and consultancy services for individual and corporate entities.</p>
+                        <div class="col-md-4" >
+                          <div class="features_item sm-m-top-30">
+                            <div class="f_item_icon"><img src="{{ url('uploads/logo/TS.png') }}"></div>
+                            <div class="business_item f_item_text">
+                              <h3>Tax Services</h3>
+                              <p align="justify">Online applications and consultancy services for individual and corporate entities.</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
+                    
                     </div>
-                    </div>
+                    
                 </div>
               </div>
             </div>
@@ -318,7 +333,9 @@
                                             </div>
                                             <div class="port_caption m-top-20">
                                                 <h5>JOHN LAI</h5>
-                                                
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Reg No : R1105211</h5>
                                             </div>
                                         </div>    
                                           
@@ -333,6 +350,9 @@
                                                 <h5>LIM PENG SIANG</h5>
                                                 
                                             </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Reg No : R1104808</h5>
+                                            </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="port_img">
@@ -342,8 +362,11 @@
                                                 </div>
                                             </div>
                                             <div class="port_caption m-top-20">
-                                                <h5>VIRGINIA LEE</h5>
+                                                <h5>VIRIGINIA LEE</h5>
                                                 
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Reg No : R1104807</h5>
                                             </div>
                                         </div>        
                                       </div>
@@ -358,8 +381,11 @@
                                                 </div>
                                             </div>
                                             <div class="port_caption m-top-20">
-                                                <h5>JENNY LAI</h5>
+                                                <h5>ESME LIM</h5>
                                                 
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Reg No : R1652787</h5>
                                             </div>
                                         </div>          
                                         <div class="col-md-4">
@@ -370,9 +396,9 @@
                                                 </div>
                                             </div>
                                             <div class="port_caption m-top-20">
-                                                <h5>ESME LIM</h5>
-                                                
+                                                <h5>JENNY LAI</h5>
                                             </div>
+                                            
                                         </div>
                                                
                                       </div>
