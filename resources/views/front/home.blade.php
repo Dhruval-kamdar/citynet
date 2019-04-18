@@ -326,7 +326,7 @@
                                       <div class="row">
                                         <div class="col-md-4">
                                             <div class="port_img">
-                                                <img src="assets/images/team/Lai tau.jpg" alt="" />
+                                                <img src="assets/images/team/Lai tau.jpg" style="height:240px;width: 360px" alt="" />
                                                 <div class="port_overlay text-center">
                                                     <a href="assets/images/team/Lai tau.jpg" class="popup-img">+</a>
                                                 </div>
@@ -341,7 +341,7 @@
                                           
                                         <div class="col-md-4">
                                             <div class="port_img">
-                                                <img src="assets/images/team/lavpuav.jpg" alt="" />
+                                                <img src="assets/images/team/lim.jpeg" style="height:240px;width: 360px" alt="" />
                                                 <div class="port_overlay text-center">
                                                     <a href="assets/images/team/lavpuav.jpg" class="popup-img">+</a>
                                                 </div>
@@ -356,7 +356,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <div class="port_img">
-                                                <img src="assets/images/team/Lee Ai.jpg" alt="" />
+                                                <img src="assets/images/team/Lee Ai.jpg" style="height:240px;width: 360px" alt="" />
                                                 <div class="port_overlay text-center">
                                                     <a href="assets/images/team/Lee Ai.jpg" class="popup-img">+</a>
                                                 </div>
@@ -390,7 +390,7 @@
                                         </div>          
                                         <div class="col-md-4">
                                           <div class="port_img">
-                                                <img src="assets/images/team/Lim hvee kia.jpg" alt="" />
+                                                <img src="assets/images/team/lavpuav.jpg" style="height:240px;width: 360px" alt="" />
                                                 <div class="port_overlay text-center">
                                                     <a href="assets/images/team/Lim hvee kia.jpg" class="popup-img">+</a>
                                                 </div>
