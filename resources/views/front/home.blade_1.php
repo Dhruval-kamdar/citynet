@@ -55,9 +55,9 @@
                         </button>
                         <a class="navbar-brand" href="{{ route('home')}}">
                            <img alt="img" style="margin-top:5px;height: 70px; width: 70px;" src="{{ url('uploads/city-net-logo.png') }}">
-                           <h3 style="font-size: 1.3rem;color: #325992;margin-top: -50px;margin-left: 90px;">City Net Employement Agency</h3>
+                           
                         </a>
-                       
+
                     </div>
                     <!-- End Header Navigation -->
 
@@ -317,227 +317,104 @@
                         </div>
 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                  <div class="aa-blog-area">
-                                    <div class="row">
-                                      <div class="col-md-12">
-                                        <div class="aa-blog-content">
-                                            <div class="row">
-                                                <div class="col-md-4 col-sm-4" style="margin-top:10px;margin-bottom:25px">
-                                                    <article class="aa-blog-single" style="padding:15px;">
-                                                        <figure class="aa-blog-img">
-                                                            <img src="assets/images/team/Lai tau.jpg" style="height:240px;width: 360px" alt="" />
-                                                        </figure>
-                                                          <br>
-                                                        <div class="aa-blog-single-content">
-                                                          <h5>JOHN LAI</h5>
-                                                          <h5>Reg No : R1105211</h5>
-                                                        </div>                   
-                                                    </article>
-                                                </div>
-                                                
-                                                <div class="col-md-4 col-sm-4" style="margin-top:10px;margin-bottom:25px">
-                                                    <article class="aa-blog-single" style="padding:15px;">
-                                                        <figure class="aa-blog-img">
-                                                            <img src="assets/images/team/lim.jpeg" style="height:240px;width: 360px" alt="" />
-                                                        </figure>
-                                                          <br>
-                                                        <div class="aa-blog-single-content">
-                                                          <h5>LIM PENG SIANG</h5>
-                                                          <h5>Reg No : R1104808</h5>
-                                                        </div>                   
-                                                    </article>
-                                                </div>
-                                                
-                                                <div class="col-md-4 col-sm-4" style="margin-top:10px;margin-bottom:25px">
-                                                    <article class="aa-blog-single" style="padding:15px;">
-                                                        <figure class="aa-blog-img">
-                                                            <img src="assets/images/team/Lee Ai.jpg" style="height:240px;width: 360px" alt="" />
-                                                        </figure>
-                                                          <br>
-                                                        <div class="aa-blog-single-content">
-                                                          <h5>VIRIGINIA LEE</h5>
-                                                          <h5>Reg No : R1104807</h5>
-                                                        </div>                   
-                                                    </article>
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </div>
-                                        
-                                      <div class="col-md-12">
-                                        <div class="aa-blog-content">
-                                            <div class="row">
-                                                <div class="col-md-2 col-sm-2" style="margin-top:20px;margin-bottom:25px">
-                                                    
-                                                </div>
-                                                
-                                                <div class="col-md-4 col-sm-4" style="margin-top:10px;margin-bottom:25px">
-                                                    <article class="aa-blog-single" style="padding:15px;">
-                                                        <figure class="aa-blog-img">
-                                                            <img src="assets/images/team/Lim hvee kia.jpg" style="height:240px;width: 360px" alt="" />
-                                                        </figure>
-                                                          <br>
-                                                        <div class="aa-blog-single-content">
-                                                          <h5>ESME LIM</h5>
-                                                          <h5>Reg No : R1652787</h5>
-                                                        </div>                   
-                                                    </article>
-                                                </div>
-                                                
-                                                <div class="col-md-4 col-sm-4" style="margin-top:10px;margin-bottom:25px">
-                                                    <article class="aa-blog-single" style="padding:15px;">
-                                                        <figure class="aa-blog-img">
-                                                            <img src="assets/images/team/lavpuav.jpg" style="height:240px;width: 360px" alt="" />
-                                                        </figure>
-                                                          <br>
-                                                        <div class="aa-blog-single-content">
-                                                          <h5>JENNY LAI</h5>
-                                                          <h5></h5>
-                                                        </div>                   
-                                                    </article>
-                                                </div>
-                                                
-                                                <div class="col-md-2 col-sm-2" style="margin-top:20px;margin-bottom:25px">
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-<!--                            <div class='row'>
+                            
+                            <div class='row'>
                               <div class='col-md-12'>
-                                  <article class="aa-blog-single">
-                                  <div class="col-md-4" style="background-color: #f8f8f8;padding:15px;">
-                                    <div class="port_img">
-                                        <img src="assets/images/team/Lai tau.jpg" style="height:240px;width: 360px" alt="" />
-                                        <div class="port_overlay text-center">
-                                            <a href="assets/images/team/Lai tau.jpg" class="popup-img">+</a>
+                                <div class="carousel slide media-carousel" id="media">
+                                  <div class="carousel-inner">
+                                    <div class="item  active">
+                                      <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="port_img">
+                                                <img src="assets/images/team/Lai tau.jpg" style="height:240px;width: 360px" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/Lai tau.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>JOHN LAI</h5>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Reg No : R1105211</h5>
+                                            </div>
+                                        </div>    
+                                          
+                                        <div class="col-md-4">
+                                            <div class="port_img">
+                                                <img src="assets/images/team/lim.jpeg" style="height:240px;width: 360px" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/lavpuav.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>LIM PENG SIANG</h5>
+                                                
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Reg No : R1104808</h5>
+                                            </div>
                                         </div>
+                                        <div class="col-md-4">
+                                            <div class="port_img">
+                                                <img src="assets/images/team/Lee Ai.jpg" style="height:240px;width: 360px" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/Lee Ai.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>VIRIGINIA LEE</h5>
+                                                
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Reg No : R1104807</h5>
+                                            </div>
+                                        </div>        
+                                      </div>
                                     </div>
-                                    <div class="port_caption m-top-20">
-                                        <h5>JOHN LAI</h5>
-                                    </div>
-                                    <div class="port_caption m-top-20">
-                                        <h5>Reg No : R1105211</h5>
-                                    </div>
-                                </div>    
-                                  </article>
-                                <div class="col-md-4" style="background-color: #f8f8f8;padding: 15px">
-                                    <div class="port_img">
-                                        <img src="assets/images/team/lim.jpeg" style="height:240px;width: 360px" alt="" />
-                                        <div class="port_overlay text-center">
-                                            <a href="assets/images/team/lavpuav.jpg" class="popup-img">+</a>
+                                    <div class="item">
+                                      <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="port_img">
+                                                <img src="assets/images/team/Lim hvee kia.jpg" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/Lim hvee kia.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>ESME LIM</h5>
+                                                
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>Reg No : R1652787</h5>
+                                            </div>
+                                        </div>          
+                                        <div class="col-md-4">
+                                          <div class="port_img">
+                                                <img src="assets/images/team/lavpuav.jpg" style="height:240px;width: 360px" alt="" />
+                                                <div class="port_overlay text-center">
+                                                    <a href="assets/images/team/Lim hvee kia.jpg" class="popup-img">+</a>
+                                                </div>
+                                            </div>
+                                            <div class="port_caption m-top-20">
+                                                <h5>JENNY LAI</h5>
+                                            </div>
+                                            
                                         </div>
+                                               
+                                      </div>
                                     </div>
-                                    <div class="port_caption m-top-20">
-                                        <h5>LIM PENG SIANG</h5>
-
-                                    </div>
-                                    <div class="port_caption m-top-20">
-                                        <h5>Reg No : R1104808</h5>
-                                    </div>
-                                </div>
-                                <div class="col-md-4" style="background-color: #f8f8f8;padding:15px;">
-                                    <div class="port_img">
-                                        <img src="assets/images/team/Lee Ai.jpg" style="height:240px;width: 360px" alt="" />
-                                        <div class="port_overlay text-center">
-                                            <a href="assets/images/team/Lee Ai.jpg" class="popup-img">+</a>
-                                        </div>
-                                    </div>
-                                    <div class="port_caption m-top-20">
-                                        <h5>VIRIGINIA LEE</h5>
-
-                                    </div>
-                                    <div class="port_caption m-top-20">
-                                        <h5>Reg No : R1104807</h5>
-                                    </div>
-                                </div> 
+                                   
+                                  </div>
+                                  <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+                                  <a data-slide="next" href="#media" class="right carousel-control">›</a>
+                                </div>                          
                               </div>
-                            </div>-->
-                        </div>
+                            </div>
+                          </div>
                     </div><!-- End off row -->
                     
                 </div><!-- End off container -->
             </section><!-- End off Product section -->
-<style type="text/css">
-        
-       .aa-blog-single .aa-blog-img .aa-date-tag {
-            color: #fff;
-            padding: 5px 8px;
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-            top: 15px;
-        }
-        .aa-blog-single .aa-date-tag {
-            background-color: #59abe3;
-        }
 
-        .aa-blog-single {
-              background-color: #f8f8f8;
-              display: inline;
-              float: left;
-              width: 100%;
-          }
-
-        .aa-blog-single .aa-blog-img {
-            display: inline;
-            float: left;
-            position: relative;
-            width: 100%;
-        }
-
-        .aa-blog-single .aa-blog-single-content {
-            display: inline;
-            float: left;
-            padding: 10px;
-            width: 100%;
-            padding-bottom: 20px;
-        }
-
-        .aa-blog-single .aa-blog-single-bottom {
-            border-top: 1px solid #ccc;
-            padding: 10px;
-            display: inline;
-            margin-top: 10px;
-            float: left;
-            width: 100%;
-        }
-
-        .aa-blog-single .aa-blog-single-bottom .aa-blog-author {
-            float: left;
-            font-size: 14px;
-            font-weight: bold;
-            letter-spacing: 0.5px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #333333;
-        }
-
-        #aa-blog .aa-blog-area .aa-blog-content .aa-blog-single {
-            margin-bottom: 30px;
-        }
-
-        .aa-blog-details {
-            padding: 20px;
-        }
-        .aa-blog-single {
-            background-color: #f8f8f8;
-            display: inline;
-            float: left;
-            width: 100%;
-        }
-
-        .aa-blog-single .aa-blog-single-content {
-          height: 80px;
-        }
-     </style> 
 
 @endsection

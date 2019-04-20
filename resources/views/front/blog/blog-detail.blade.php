@@ -49,7 +49,7 @@
                         </button>
                         <a class="navbar-brand" href="{{ route('home')}}">
                            <img alt="img" style="margin-top:5px;height: 70px; width: 70px;" src="{{ url('uploads/city-net-logo.png') }}">
-                           
+                            <h3 style="font-size: 1.3rem;color: #325992;margin-top: -50px;margin-left: 90px;">City Net Employement Agency</h3>
                         </a>
 
                     </div>
@@ -90,7 +90,7 @@
                                   $file_headers = @get_headers($filename);
                                 @endphp
                 
-                              @if($file_headers[0] == 'HTTP/1.1 200 OK')
+                               @if($blogArray['image'] != '')
                                 <img alt="img" src="{{ url('uploads/blog/'. $blogArray['image']) }}">
                               @else
                                 <img alt="img" src="{{ url('uploads/blog/No-image.jpg') }}">
